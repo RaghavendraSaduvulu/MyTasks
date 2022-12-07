@@ -1,0 +1,31 @@
+.tasks-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.task-list-item {
+  margin: 8px 0px;
+  background-color: #1a171d;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task {
+  align-self: center;
+  color: #f1f5f9;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.tag {
+  align-self: center;
+  color: #f1f5f9;
+  font-size: 14px;
+  margin: 10px 0px;
+  background-color: #f3aa4e;
+  border-radius: 20px;
+  padding: 4px 15px;
+}
